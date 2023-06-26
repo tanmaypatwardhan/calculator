@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF9500;
+}
+
+.container {
+    align-self: center;
+    background: #1C1C1C;
+    min-width: 400px;
+    min-height: 650px;
+    border: 5px solid #D4D4D2;
+    border-radius: 20px;
+    padding-top: 15px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+.display_top, .display_bottom {
+    background: #505050;
+    width: 92%;
+    height: 60px;
+    color: white;
+    font-size: 35px;
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.display_top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.display_bottom {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: 1px solid #505050;
+}
+
+
+
+.button-container {
+    display: flex;
+    width: 92%;
+    height: 530px;
+    gap: 5px;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    margin-top: 25px;
+    
+}
+
+.first_four, .second_four, .third_four, .fourth_four, .last_four {
+    width: 100%;
+    height: 18%;
+}
+
+button {
+    background: #505050;
+    width: 24%;
+    height: 100%;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    text-align:center;
+    text-decoration:none;
+    font-size:30px;
+    font-weight:bold;
+    transition-duration: 0.3s;
+}
+
+.zero {
+    width: 48%;
+    border-radius: 45%;
+}
+
+.divide, .multiply, .add , .subtract, .equal {
+    background: #FF9500;
+}
+
+
+.AC, .C, .plus_minus {
+    color: black;
+    background: #D4D4D2;
+}
+
+button:hover {
+    transform: translate(0px, -5px);
+    background: #FF9500;
+}
+
+.divide:hover, .multiply:hover, .add:hover, .subtract:hover, .equal:hover {
+    background: #D4D4D2;
+    color: black;
+}
+
+
+.AC:hover {
+    background: #ff6961;
+}
+
+.C:hover {
+    background: #99c5c4;
+}
+
+.plus_minus:hover {
+    background: #FDFD96;
+}
